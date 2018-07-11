@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "Test\TestConsole.csproj", "{DF45B252-0C70-4985-A6FA-14DDE21F670C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonaHelper", "YonaHelper\YonaHelper.csproj", "{78D48CD2-2EEC-40F7-9F63-DA1B9282F680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF45B252-0C70-4985-A6FA-14DDE21F670C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF45B252-0C70-4985-A6FA-14DDE21F670C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF45B252-0C70-4985-A6FA-14DDE21F670C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF45B252-0C70-4985-A6FA-14DDE21F670C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D48CD2-2EEC-40F7-9F63-DA1B9282F680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D48CD2-2EEC-40F7-9F63-DA1B9282F680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D48CD2-2EEC-40F7-9F63-DA1B9282F680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D48CD2-2EEC-40F7-9F63-DA1B9282F680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E1557EC-C6B6-4873-96BB-4CDE58BB2D2B}
+	EndGlobalSection
+EndGlobal
