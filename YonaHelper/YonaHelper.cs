@@ -179,6 +179,7 @@ namespace Yona
                 author = author,
                 state = "OPEN",
                 type = "ISSUE_POST",
+                sendNotification = "true",
                 createdAt = $"{DateTime.Now.ToString("yyyy-MM-dd tt hh:mm:ss", new CultureInfo("en-US"))} +0900",
                 updatedAt = $"{DateTime.Now.ToString("yyyy-MM-dd tt hh:mm:ss", new CultureInfo("en-US"))} +0900",
             };
@@ -273,6 +274,7 @@ namespace Yona
                 title = title,
                 body = body,
                 author = author,
+                sendNotification = "true",
                 createdAt = $"{DateTime.Now.ToString("yyyy-MM-dd tt hh:mm:ss", new CultureInfo("en-US"))} +0900",
                 updatedAt = $"{DateTime.Now.ToString("yyyy-MM-dd tt hh:mm:ss", new CultureInfo("en-US"))} +0900",
             };
@@ -394,6 +396,7 @@ namespace Yona
         public YonaAuthor author { get; set; }
         public string createdAt { get; set; }
         public string updatedAt { get; set; }
+        public string sendNotification { get; set; }
         public List<long> temporaryUploadFiles { get; set; }
         public List<Attachment> attachmentList { get; set; }
     }
@@ -407,6 +410,7 @@ namespace Yona
         public YonaAuthor author { get; set; }
         public string createdAt { get; set; }
         public string updatedAt { get; set; }
+        public string sendNotification { get; set; }
         public List<long> temporaryUploadFiles { get; set; }
         public List<Attachment> attachmentList { get; set; }
     }
