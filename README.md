@@ -22,6 +22,11 @@
     * NewIssue : 만들어진 Json을 Issue api를 이용해 등록합니다.
     * MakePostData : API를 통해 '게시판'에 등록할 데이터의 Json을 만듭니다. API Payload에 맞는 Json 반환됩니다.
     * NewPost : 만들어진 Json을 Post api를 이용해 등록합니다.
+  * 기타
+    * C#은 ~~불쌍하게~~ Json <-> Object Converter를 구현해서 써야하므로 JsonConverter class
+    * 네이버 블로그API에서 제공해준 multipart/form-data 관련 c#예제 (buildFileParam 등)
+    * jpg, jpeg, png, gif, tif, tiff, zip, pdf를 제외한 첨부파일은 모두 application/octet-stream 타입 처리
+    
 
 ## * Usage
   1. YonaHelper 프로젝트를 빌드합니다.
@@ -71,5 +76,12 @@
     * 이미지파일의 경우 본문에 미리보기 모드로
     * 이외의 파일이면 파일명(클릭시 다운로드)로
     
-    
+ ## UseCase
+ * CS프로그램 내 사용자PC의 파일을 포함한 요구사항 접수에 사용
+    <img src="https://raw.githubusercontent.com/lotiony/warehouse/master/20180712_155543.png">
+ 
+ * 요나 이슈에 등록된 요청사항
+    <img src="https://raw.githubusercontent.com/lotiony/warehouse/master/20180712_161136.png">
+ 
+ 
  ### 문의 : lotiony@gmail.com
